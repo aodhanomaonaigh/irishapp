@@ -1,0 +1,3930 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<title>Gliog-Ghraiméar Gaeilge</title>
+<link href="jquery/jquery.mobile.theme-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery/jquery.mobile-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+<script src="jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="jquery/jquery.mobile-1.3.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="js/index.js"
+
+<script type="text/javascript" charset="utf-8">
+	document.addEventListener("deviceready", onDeviceReady, false);
+	function onDeviceReady(){
+	}
+</script>
+</head>
+<body>
+<!--Homepage done-->
+<div class="homepage" data-role="page" id="homepage" data-theme="b">
+  <div class="header" data-role="header" data-theme="b" data-position="fixed"> <a class="infobutton" href="#information" data-role="button" data-rel="popup" data-icon="info" data-iconpos="notext" data-position-to="window" data-transition="pop" data-inline="true">info</a>
+    <div id="information" data-role="popup" class="ui-content" data-overlay-theme="b" style="margin:10px"> <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right" data-transition="fade"></a> <div data-role="content">Seán Hayes, mac léinn sa cheathrú bliain in Ollscoil na hÉireann, Má Nuad, a chruthaigh an aip seo mar chuid de mheasúnú na céime, i gcomhar lena stiúrthóir Dr Aidan Mooney, Roinn na Ríomheolaíochta, agus An Dr Tracey Ní Mhaonaigh, Roinn na Nua-Ghaeilge. Mar chuidiú do mhic léinn na Nua-Ghaeilge, agus iad i mbun staidéir ar chruinnscríobh na Gaeilge, a cruthaíodh é.</div></div>
+    <h1>Roghchlár</h1>
+    <a class="menubutton" href="#" data-role="button" data-icon="home" data-iconpos="notext">menu</a> </div>
+  <div data-role="content">
+    <ul class="menu" data-role="listview" data-icon="arrow-r" data-transition="slide" data-inset="true"  data-theme="c">
+      <li><a href="#MainTerms" data-transition="slide">
+        <h3>Príomhthéarmaíocht</h3>
+        <p>main terms</p>
+      </a></li>
+      <li><a href="#verbschoice" data-rel="popup" data-position-to="window" data-transition="pop">
+        <h3>Briathra</h3>
+        <p>verbs</p>
+      </a></li>
+      <li><a href="#Nouns" data-transition="slide">
+        <h3>Ainmfhocail</h3>
+        <p>nouns</p>
+      </a></li>
+      <li><a href="#Adjectives" data-transition="slide">
+        <h3>Aidiachtaí</h3>
+        <p>adjectives</p>
+      </a></li>
+      <li><a href="#PossessiveAdjectives" data-transition="slide">
+        <h3>Aidiachtaí Sealbhacha</h3>
+        <p>possessive adjectives</p>
+      </a></li>
+      <li><a href="#SimplePrepositions" data-transition="slide">
+        <h3>Réamhfhocail Shimplí</h3>
+        <p>simple prepositions</p>
+      </a></li>
+      <li><a href="#Numbers" data-transition="slide">
+        <h3>Uimhreacha</h3>
+        <p>numbers</p>
+      </a></li>
+    </ul>
+    <div id="verbschoice" data-role="popup" data-overlay-theme="b">
+      <div data-role="header" data-theme="b" class="ui-content" style="text-align:center"> Briathra </div>
+      <a href="#VerbsReg" data-role="button" data-transition="slide" data-theme="c" style="margin:15px">
+        <h3>Briathra Rialta</h3>
+      </a> <a href="#VerbsIrreg" data-role="button" data-transition="slide" data-theme="c" style="margin:15px">
+          <h3>Briathra Neamhrialta</h3>
+        </a> </div>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Menu</h4>
+  </div>
+</div>
+<!--Main Terms done-->
+<div class="termspage" data-role="page" id="MainTerms" data-theme="b">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Príomhthéarmaíocht</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#adjterm" data-transition="slide">
+        <h3>Aidiacht</h3>
+        <p>adjective</p>
+      </a></li>
+      <li><a href="#posadjterm" data-transition="slide">
+        <h3>Aidiacht Shealbhach</h3>
+        <p>possessive adjective</p>
+      </a></li>
+      <li><a href="#nounterm" data-transition="slide">
+        <h3>Ainmfhocal</h3>
+        <p>noun</p>
+      </a></li>
+      <li><a href="#theterm" data-transition="slide">
+        <h3>An tAlt</h3>
+        <p>the definite article; 'the'</p>
+      </a></li>
+      <li><a href="#verbterm" data-transition="slide">
+        <h3>Briathar</h3>
+        <p>verb</p>
+      </a></li>
+      <li><a href="#copulaterm" data-transition="slide">
+        <h3>An Chopail</h3>
+        <p>the copula</p>
+      </a></li>
+      <li><a href="#personalproterm" data-transition="slide">
+        <h3>Forainm (Pearsanta)</h3>
+        <p>(personal) pronoun</p>
+      </a></li>
+      <li><a href="#prepoproterm" data-transition="slide">
+        <h3>Forainm Réamhfhoclach</h3>
+        <p>prepositional pronoun</p>
+      </a></li>
+      <li><a href="#genderterm" data-transition="slide">
+        <h3>Inscne</h3>
+        <p>gender</p>
+      </a></li>
+      <li><a href="#simprepterm" data-transition="slide">
+        <h3>Réamhfhocal Simplí</h3>
+        <p>simple preposition</p>
+      </a></li>
+      <li><a href="#comprepterm" data-transition="slide">
+        <h3>Réamhfhocal Comhshuite</h3>
+        <p>compound preposition</p>
+      </a></li>
+      <li><a href="#numterm" data-transition="slide">
+        <h3>Uimhir</h3>
+        <p>number</p>
+      </a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Main Terms</h4>
+  </div>
+</div>
+<!--Main Terms pages done-->
+<div data-role="page" id="adjterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Aidiacht</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+      	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>Focal a thugann eolas breise dúinn faoin ainmfhocal, m.sh., dubh, mór, leisciúil </li>
+        </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>adjective</h4>
+  </div>
+</div>
+<div data-role="page" id="posadjterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Aidiacht Shealbhach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+    	<li>Aidiacht a thaispeánann cé leis rud éigin [a chuireann seilbh (possession) in iúl]</br>–	mo, do, a, a, ár, bhur, a</li>
+   	</ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>possessive adjective</h4>
+  </div>
+</div>
+<div data-role="page" id="nounterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Ainmfhocal</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  	<div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+        <li>Focal a léiríonn duine, rud nó áit, m.sh., Seán, leabhar, Gaillimh</li>
+    </ul>
+    </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>noun</h4>
+  </div>
+</div>
+<div data-role="page" id="theterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>An tAlt</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  	<div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+        <li>Tá <u>dhá</u> leagan den alt sa Ghaeilge – 'an' agus 'na'. Go simplí, úsáidtear 'an' san uimhir uatha agus 'na' san uimhir iolra <strong>agus</strong> sa tuiseal ginideach uatha baininscneach</li>
+    </ul>
+    </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>the definite article; 'the'</h4>
+  </div>
+</div>
+<div data-role="page" id="verbterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Briathar</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>Focal a léiríonn gníomh (action), staid (state), srl., m.sh., buail, bí, feic, cuir (srl. = etc.)</li>
+   	</ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>verb</h4>
+  </div>
+</div>
+<div data-role="page" id="copulaterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>An Chopail</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>An briathar <strong>Is/Ba</strong></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>the copula</h4>
+  </div>
+</div>
+<div data-role="page" id="personalproterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Forainm Pearsanta</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>mé, tú, sé, sí, sinn/muid, sibh, siad</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>personal pronoun</h4>
+  </div>
+</div>
+<div data-role="page" id="prepoproterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Forainm Réamhfhoclach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>Forainm + réamhfhocal simplí (simple preposition), m.sh., orm (ar + mé), leat (le + tú), dóibh (dó + siad)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>prepositional pronoun</h4>
+  </div>
+</div>
+<div data-role="page" id="genderterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Inscne</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>Firinscneach (masculine) agus Baininscneach (feminine)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>gender</h4>
+  </div>
+</div>
+<div data-role="page" id="simprepterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Réamhfhocal Simplí</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>m.sh., ar, do, faoi, ag, ó...</li>
+        <li>Bíonn tionchar ag réamhfhocail shimplí áirithe ar thúschonsan nó ar thúsghuta an ainmfhocail a thagann ina ndiaidh, m.sh. go hÉirinn, i mbosca, do Sheán</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>simple preposition</h4>
+  </div>
+</div>
+<div data-role="page" id="comprepterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Réamhfhocal Comhshuite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li>m.sh., ar feadh; tar éis, i ndiaidh…</li>
+        <li>Cuirtear an ginideach i bhfeidhm i ndiaidh thromlach na réamhfhocal comhshuite</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>compund preposition</h4>
+  </div>
+</div>
+<div data-role="page" id="numterm">
+  <div data-role="header" data-theme="b" data-position="fixed"> <a href="#MainTerms" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Uimhir</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+        <li><strong>Uimhir Uatha:</strong> singular </br></br> <strong>Uimhir Iolra:</strong> plural</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>number</h4>
+  </div>
+</div>
+<!--Regular Verbs done-->
+<div class="verbspage" data-role="page" id="VerbsReg" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Briathra Rialta</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c" data-icon="arrow-r">
+      <li data-role="list-divider" data-theme="b">An Chéad Réimniú</li>
+      <li><a href="#cuir" data-transition="slide">Cuir</a></li>
+      <li><a href="#ol" data-transition="slide">Ól</a></li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c" data-icon="arrow-r">
+      <li data-role="list-divider" data-theme="b">An Dara Réiminiú</li>
+      <li><a href="#ceannaigh" data-transition="slide">Ceannaigh</a></li>
+      <li><a href="#bailigh" data-transition="slide">Bailigh</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Roinnt Samplaí</h4>
+  </div>
+</div>
+<!--Regular Verbs pages done-->
+<div data-role="page" id="cuir" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#VerbsReg" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Cuir</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#cuirAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#cuirAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#cuirAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#cuirMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#cuirAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#cuirMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+<div data-role="page" id="ol" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#VerbsReg" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Ól</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#olAC">Aimsir Chaite</a></li>
+      <li><a href="#olAL">Aimsir Láithreach</a></li>
+      <li><a href="#olAF">Aimsir Fháistineach</a></li>
+      <li><a href="#olMC">Modh Coinníollach</a></li>
+      <li><a href="#olAG">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#olMO">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+<div data-role="page" id="ceannaigh" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#VerbsReg" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Ceannaigh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#ceannaighAC">Aimsir Chaite</a></li>
+      <li><a href="#ceannaighAL">Aimsir Láithreach</a></li>
+      <li><a href="#ceannaighAF">Aimsir Fháistineach</a></li>
+      <li><a href="#ceannaighMC">Modh Coinníollach</a></li>
+      <li><a href="#ceannaighAG">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#ceannaighMO">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+<div data-role="page" id="bailigh" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#VerbsReg" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Bailigh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#bailighAC">Aimsir Chaite</a></li>
+      <li><a href="#bailighAL">Aimsir Láithreach</a></li>
+      <li><a href="#bailighAF">Aimsir Fháistineach</a></li>
+      <li><a href="#bailighMC">Modh Coinníollach</a></li>
+      <li><a href="#bailighAG">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#bailighMO">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+<!--Regular Verbs subpages done-->
+<div data-role="page" id="cuirAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chuir mé</li>
+      <li>Chuir tú</li>
+      <li>Chuir sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chuireamar</li>
+      <li>Chuir sibh</li>
+      <li>Chuir siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cuireadh (ar cuireadh/ nár cuireadh/ níor cuireadh)</li>
+      <li></br>
+      </li>
+      <li>Ar chuir?</li>
+      <li>Nár chuir?</li>
+      <li>Chuir/ Níor chuir</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Cur</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Curtha</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+<div data-role="page" id="cuirAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cuirim</li>
+      <li>Cuireann tú</li>
+      <li>Cuireann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cuirimid</li>
+      <li>Cuireann sibh</li>
+      <li>Cuireann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cuirtear</li>
+      <li></br>
+      </li>
+      <li>An gcuireann?</li>
+      <li>Nach gcuireann?</li>
+      <li>Cuireann/ Ní chuireann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+<div data-role="page" id="cuirAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cuirfidh mé</li>
+      <li>Cuirfidh tú</li>
+      <li>Cuirfidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cuirfimid</li>
+      <li>Cuirfidh sibh</li>
+      <li>Cuirfidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cuirfear</li>
+      <li></br>
+      </li>
+      <li>An gcuirfidh?</li>
+      <li>Nach gcuirfidh?</li>
+      <li>Cuirfidh/ Ní chuirfidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+<div data-role="page" id="cuirMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chuirfinn</li>
+      <li>Chuirfeá</li>
+      <li>Chuirfeadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chuirfimis</li>
+      <li>Chuirfeadh sibh</li>
+      <li>Chuirfidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chuirfí</li>
+      <li></br>
+      </li>
+      <li>An gcuirfeadh?</li>
+      <li>Nach gcuirfeadh?</li>
+      <li>Chuirfeadh/ Ní chuirfeadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+<div data-role="page" id="cuirAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chuirinn</li>
+      <li>Chuirteá</li>
+      <li>Chuireadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chuirimis</li>
+      <li>Chuireadh sibh</li>
+      <li>Chuiridís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chuirtí</li>
+      <li></br>
+      </li>
+      <li>An gcuireadh?</li>
+      <li>Nach gcuireadh?</li>
+      <li>Chuireadh/ Ní chuireadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+<div data-role="page" id="cuirMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cuirim</li>
+      <li>Cuir</li>
+      <li>Cuireadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cuirimis</li>
+      <li>Cuirigí</li>
+      <li>Cuiridís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cuirtear</li>
+      <li></br>
+      </li>
+      <li>Ná cu...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Cuir</h4>
+  </div>
+</div>
+
+<div data-role="page" id="olAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+      <ul data-role="listview" data-inset="true" data-theme="c">
+          <li data-role="list-divider" data-theme="b">Uatha</li>
+          <li>D'ól mé</li>
+          <li>D'ól tú</li>
+          <li>D'ól sé/sí</li>
+          <li data-role="list-divider" data-theme="b">Iolra</li>
+          <li>D'ólamar</li>
+          <li>D'ól sibh</li>
+          <li>D'ól siad</li>
+          <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+          <li>Óladh</li>
+          <li></br>
+          </li>
+          <li>Ar ól?</li>
+          <li>Nár ól?</li>
+          <li>D'ól/ Níor ól</li>
+          <li></br>
+          </li>
+          <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+          <li>Ól</li>
+          <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+          <li>Ólta</li>
+        </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+<div data-role="page" id="olAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ólaim</li>
+      <li>Ólann tú</li>
+      <li>Ólann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ólaimid</li>
+      <li>Ólann sibh</li>
+      <li>Ólann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Óltar</li>
+      <li></br>
+      </li>
+      <li>An ólann?</li>
+      <li>Nach n-ólann?</li>
+      <li>Ólann/ Ní ólann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+<div data-role="page" id="olAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ólfaidh mé</li>
+      <li>Ólfaidh tú</li>
+      <li>Ólfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ólfaimid</li>
+      <li>Ólfaidh sibh</li>
+      <li>Ólfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Ólfar</li>
+      <li></br>
+      </li>
+      <li>An ólfaidh?</li>
+      <li>Nach n-ólfaidh?</li>
+      <li>Ólfaidh/ Ní ólfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+<div data-role="page" id="olMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">  <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'ólfainn</li>
+      <li>D'ólfá</li>
+      <li>D'ólfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'ólfaimis</li>
+      <li>D'ólfadh sibh</li>
+      <li>D'ólfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'ólfaí</li>
+      <li></br>
+      </li>
+      <li>An ólfadh?</li>
+      <li>Nach n-ólfadh?</li>
+      <li>D'ólfadh/ Ní ólfadh</li>
+    </ul></div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+<div data-role="page" id="olAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'ólainn</li>
+      <li>D'óltá</li>
+      <li>D'óladh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'ólaimis</li>
+      <li>D'óladh sibh</li>
+      <li>D'ólaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'óltaí</li>
+      <li></br>
+      </li>
+      <li>An óladh?</li>
+      <li>Nach n-óladh?</li>
+      <li>D'óladh/ Ní óladh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+<div data-role="page" id="olMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ólaim</li>
+      <li>Ól</li>
+      <li>Óladh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ólaimis</li>
+      <li>Ólaigí</li>
+      <li>Ólaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Óltar</li>
+      <li></br>
+      </li>
+      <li>Ná hó...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ól</h4>
+  </div>
+</div>
+
+<div data-role="page" id="ceannaighAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cheannaigh mé</li>
+      <li>Cheannaigh tú</li>
+      <li>Cheannaigh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cheannaíomar</li>
+      <li>Cheannaigh sibh</li>
+      <li>Cheannaigh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Ceannaíodh (ar ceannaíodh/ nár ceannaíodh/ níor ceannaíodh)</li>
+      <li></br>
+      </li>
+      <li>Ar cheannaigh?</li>
+      <li>Nár cheannaigh?</li>
+      <li>Cheannaigh/ Níor cheannaigh</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Ceannach</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Ceannaithe</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+<div data-role="page" id="ceannaighAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ceannaím</li>
+      <li>Ceannaíonn tú</li>
+      <li>Ceannaíonn sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ceannaímid</li>
+      <li>Ceannaíonn sibh</li>
+      <li>Ceannaíonn siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Ceannaítear</li>
+      <li></br>
+      </li>
+      <li>An gceannaíonn?</li>
+      <li>Nach gceannaíonn?</li>
+      <li>Ceannaíonn/ Ní cheannaíonn</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+<div data-role="page" id="ceannaighAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ceannóidh mé</li>
+      <li>Ceannóidh tú</li>
+      <li>Ceannóidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ceannóimid</li>
+      <li>Ceannóidh sibh</li>
+      <li>Ceannóidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Ceannófar</li>
+      <li></br>
+      </li>
+      <li>An gceannóidh?</li>
+      <li>Nach gceannóidh?</li>
+      <li>Ceannóidh/ Ní cheannóidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+<div data-role="page" id="ceannaighMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cheannóinn</li>
+      <li>Cheannófá</li>
+      <li>Cheannódh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cheannóimis</li>
+      <li>Cheannódh sibh</li>
+      <li>Cheannóidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cheannófaí</li>
+      <li></br>
+      </li>
+      <li>An gceannódh?</li>
+      <li>Nach gceannódh?</li>
+      <li>Cheannódh/ Ní cheannódh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+<div data-role="page" id="ceannaighAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cheannaínn</li>
+      <li>Cheannaíteá</li>
+      <li>Cheannaíodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cheannaímis</li>
+      <li>Cheannaíodh sibh</li>
+      <li>Cheannaídís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cheannaítí</li>
+      <li></br>
+      </li>
+      <li>An gceannaíodh?</li>
+      <li>Nach gceannaíodh?</li>
+      <li>Cheannaíodh/ Ní cheannaíodh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+<div data-role="page" id="ceannaighMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ceannaím</li>
+      <li>Ceannaigh</li>
+      <li>Ceannaíodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ceannaímis</li>
+      <li>Ceannaígí</li>
+      <li>Ceannaídís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Ceannaítear</li>
+      <li></br>
+      </li>
+      <li>Ná ce...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ceannaigh</h4>
+  </div>
+</div>
+
+<div data-role="page" id="bailighAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bhailigh mé</li>
+      <li>Bhailigh tú</li>
+      <li>Bhailigh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bhailíomar</li>
+      <li>Bhailigh sibh</li>
+      <li>Bhailigh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bailíodh (ar bailíodh/ nár bailíodh/ níor bailíodh)</li>
+      <li></br>
+      </li>
+      <li>Ar bhailigh?</li>
+      <li>Nár bhailigh?</li>
+      <li>Bhailigh/ Níor bhailigh</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Bailiú</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Bailithe</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+<div data-role="page" id="bailighAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bailím</li>
+      <li>Bailíonn tú</li>
+      <li>Bailíonn sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bailímid</li>
+      <li>Bailíonn sibh</li>
+      <li>Bailíonn siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bailítear</li>
+      <li></br>
+      </li>
+      <li>An mbailíonn?</li>
+      <li>Nach mbailíonn?</li>
+      <li>Bailíonn/ Ní bhailíonn</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+<div data-role="page" id="bailighAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Baileoidh mé</li>
+      <li>Baileoidh tú</li>
+      <li>Baileoidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Baileoimid</li>
+      <li>Baileoidh sibh</li>
+      <li>Baileoidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Baileofar</li>
+      <li></br>
+      </li>
+      <li>An mbaileoidh?</li>
+      <li>Nach mbaileoidh?</li>
+      <li>Baileoidh/ Ní bhaileoidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+<div data-role="page" id="bailighMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bhaileoinn</li>
+      <li>Bhaileofá</li>
+      <li>Bhaileodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bhaileoimis</li>
+      <li>Bhaileodh sibh</li>
+      <li>Bhaileoidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bhaileofaí</li>
+      <li></br>
+      </li>
+      <li>An mbaileodh?</li>
+      <li>Nach mbaileodh?</li>
+      <li>Bhaileodh/ Ní bhaileodh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+<div data-role="page" id="bailighAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bhailínn</li>
+      <li>Bhailíteá</li>
+      <li>Bhailíodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bhailímis</li>
+      <li>Bhailíodh sibh</li>
+      <li>Bhailídís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bhailítí</li>
+      <li></br>
+      </li>
+      <li>An mbailíodh?</li>
+      <li>Nach mbailíodh?</li>
+      <li>Bhailíodh/ Ní bhailíodh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+<div data-role="page" id="bailighMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bailím</li>
+      <li>Bailigh</li>
+      <li>Bailíodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bailímis</li>
+      <li>Bailígí</li>
+      <li>Bailídís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bailítear</li>
+      <li></br>
+      </li>
+      <li>Ná ba...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bailigh</h4>
+  </div>
+</div>
+
+<!--Irregular Verbs done-->
+<div class="verbspage" data-role="page" id="VerbsIrreg" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Briathra Neamhrialta</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#abair" data-transition="slide">Abair</a></li>
+      <li><a href="#beir" data-transition="slide">Beir</a></li>
+      <li><a href="#bi" data-transition="slide">Bí</a></li>
+      <li><a href="#clois" data-transition="slide">Clois</a></li>
+      <li><a href="#dean" data-transition="slide">Déan</a></li>
+      <li><a href="#faigh" data-transition="slide">Faigh</a></li>
+      <li><a href="#feic" data-transition="slide">Feic</a></li>
+      <li><a href="#ith" data-transition="slide">Ith</a></li>
+      <li><a href="#tabhair" data-transition="slide">Tabhair</a></li>
+      <li><a href="#tar" data-transition="slide">Tar</a></li>
+      <li><a href="#teigh" data-transition="slide">Téigh</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Irregular Verbs</h4>
+  </div>
+</div>
+<!--Irregular Verbs pages done-->
+<div data-role="page" id="abair" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Abair</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#abairAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#abairAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#abairAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#abairMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#abairAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#abairMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+<div data-role="page" id="beir" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Beir</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#beirAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#beirAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#beirAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#beirMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#beirAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#beirMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+<div data-role="page" id="bi" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Bí</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#biAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#biAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#biGL" data-transition="slide">Aimsir Ghnáthlaithreach</a></li>
+      <li><a href="#biAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#biMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#biAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#biMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="clois" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Clois</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#cloisAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#cloisAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#cloisAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#cloisMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#cloisAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#cloisMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+<div data-role="page" id="dean" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Déan</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#deanAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#deanAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#deanAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#deanMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#deanAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#deanMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+<div data-role="page" id="faigh" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Faigh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#faighAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#faighAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#faighAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#faighMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#faighAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#faighMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+<div data-role="page" id="feic" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Feic</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#feicAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#feicAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#feicAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#feicMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#feicAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#feicMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+<div data-role="page" id="ith" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Ith</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#ithAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#ithAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#ithAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#ithMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#ithAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#ithMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+<div data-role="page" id="tabhair" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Tabhair</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#tabhairAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#tabhairAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#tabhairAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#tabhairMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#tabhairAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#tabhairMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+<div data-role="page" id="tar" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Tar</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#tarAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#tarAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#tarAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#tarMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#tarAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#tarMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+<div data-role="page" id="teigh" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Téigh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#teighAC" data-transition="slide">Aimsir Chaite</a></li>
+      <li><a href="#teighAL" data-transition="slide">Aimsir Láithreach</a></li>
+      <li><a href="#teighAF" data-transition="slide">Aimsir Fháistineach</a></li>
+      <li><a href="#teighMC" data-transition="slide">Modh Coinníollach</a></li>
+      <li><a href="#teighAG" data-transition="slide">Aimsir Ghnáthchaite</a></li>
+      <li><a href="#teighMO" data-transition="slide">Modh Ordaitheach</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<!--Irregular Verbs subpages done-->
+<div data-role="page" id="abairAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Dúirt mé</li>
+      <li>Dúirt tú</li>
+      <li>Dúirt sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Dúramar</li>
+      <li>Dúirt sibh</li>
+      <li>Dúirt siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Dúradh</li>
+      <li></br>
+      </li>
+      <li>An ndúirt? [ar dhúirt]</li>
+      <li>Nach ndúirt? [nár dhúirt]</li>
+      <li>Dúirt/ Ní dúirt [Dúirt/ Níor dhúirt]</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Rá</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Ráite</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+<div data-role="page" id="abairAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Deirim</li>
+      <li>Deir tú</li>
+      <li>Deir sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Deirimid</li>
+      <li>Deir sibh</li>
+      <li>Deir siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Deirtear</li>
+      <li></br>
+      </li>
+      <li>An ndeir?</li>
+      <li>Nach ndeir?</li>
+      <li>Deir/ Ní deir</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+<div data-role="page" id="abairAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Déarfaidh mé</li>
+      <li>Déarfaidh tú</li>
+      <li>Déarfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Déarfaimid</li>
+      <li>Déarfaidh sibh</li>
+      <li>Déarfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Déarfar</li>
+      <li></br>
+      </li>
+      <li>An ndéarfaidh?</li>
+      <li>Nach ndéarfaidh?</li>
+      <li>Déarfaidh/ Ní déarfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+<div data-role="page" id="abairMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Déarfainn</li>
+      <li>Déarfá</li>
+      <li>Déarfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Déarfaimis</li>
+      <li>Déarfadh sibh</li>
+      <li>Déarfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Déarfaí</li>
+      <li></br>
+      </li>
+      <li>An ndéarfadh?</li>
+      <li>Nach ndéarfadh?</li>
+      <li>Déarfadh/ Ní déarfadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+<div data-role="page" id="abairAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Deirinn</li>
+      <li>Deirteá</li>
+      <li>Deireadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Deirimis</li>
+      <li>Deireadh sibh</li>
+      <li>Deiridís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Deirtí</li>
+      <li></br>
+      </li>
+      <li>An ndeireadh?</li>
+      <li>Nach ndeireadh?</li>
+      <li>Deireadh/ Ní deireadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+<div data-role="page" id="abairMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Abraim</li>
+      <li>Abair</li>
+      <li>Abradh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Abraimis</li>
+      <li>Abraigí</li>
+      <li>Abraidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Abairtear</li>
+      <li></br>
+      </li>
+      <li>Ná ha...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Abair</h4>
+  </div>
+</div>
+
+<div data-role="page" id="beirAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Rug mé</li>
+      <li>Rug tú</li>
+      <li>Rug sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Rugamar</li>
+      <li>Rug sibh</li>
+      <li>Rug siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Rugadh</li>
+      <li></br>
+      </li>
+      <li>Ar rug?</li>
+      <li>Nár rug?</li>
+      <li>Rug/ Níor rug</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Breith</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Beirthe</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+<div data-role="page" id="beirAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Beirim</li>
+      <li>Beireann tú</li>
+      <li>Beireann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Beirimid</li>
+      <li>Beireann sibh</li>
+      <li>Beireann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Beirtear</li>
+      <li></br>
+      </li>
+      <li>An mbeireann?</li>
+      <li>Nach mbeireann?</li>
+      <li>Beireann/ Ní bheireann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+<div data-role="page" id="beirAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Béarfaidh mé</li>
+      <li>Béarfaidh tú</li>
+      <li>Béarfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Béarfaimid</li>
+      <li>Béarfaidh sibh</li>
+      <li>Béarfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Béarfar</li>
+      <li></br>
+      </li>
+      <li>An mbéarfaidh?</li>
+      <li>Nach mbéarfaidh?</li>
+      <li>Béarfaidh/ Ní bhéarfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+<div data-role="page" id="beirMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bhéarfainn</li>
+      <li>Bhéarfá</li>
+      <li>Bhéarfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bhéarfaimis</li>
+      <li>Bhéarfadh sibh</li>
+      <li>Bhéarfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bhéarfaí</li>
+      <li></br>
+      </li>
+      <li>An mbéarfadh?</li>
+      <li>Nach mbéarfadh?</li>
+      <li>Bhéarfadh/ Ní bhéarfadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+<div data-role="page" id="beirAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bheirinn</li>
+      <li>Bheirteá</li>
+      <li>Bheireadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bheirimis</li>
+      <li>Bheireadh sibh</li>
+      <li>Bheiridís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bheirtí</li>
+      <li></br>
+      </li>
+      <li>An mbeireadh?</li>
+      <li>Nach mbeireadh?</li>
+      <li>Bheireadh/ Ní bheireadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+<div data-role="page" id="beirMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Beirim</li>
+      <li>Beir</li>
+      <li>Beireadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Beirimis</li>
+      <li>Beirigí</li>
+      <li>Beiridís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Beirtear</li>
+      <li></br>
+      </li>
+      <li>Ná be...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Beir</h4>
+  </div>
+</div>
+
+<div data-role="page" id="biAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bhí mé</li>
+      <li>Bhí tú</li>
+      <li>Bhí sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bhíomar</li>
+      <li>Bhí sibh</li>
+      <li>Bhí siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bhíothas/ Ní rabhthas</li>
+      <li></br>
+      </li>
+      <li>An raibh?</li>
+      <li>Nach raibh?</li>
+      <li>Bhí/ Ní raibh</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Bheith</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>-</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="biAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Táim</li>
+      <li>Tá tú</li>
+      <li>Tá sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Táimid</li>
+      <li>Tá sibh</li>
+      <li>Tá siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Táthar/ Níltear</li>
+      <li></br>
+      </li>
+      <li>An bhfuil?</li>
+      <li>Nach bhfuil?</li>
+      <li>Tá/ Níl</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="biGL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthláithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bím</li>
+      <li>Bíonn tú</li>
+      <li>Bíonn sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bímid</li>
+      <li>Bíonn sibh</li>
+      <li>Bíonn siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bítear</li>
+      <li></br>
+      </li>
+      <li>An mbíonn?</li>
+      <li>Nach mbíonn?</li>
+      <li>Bíonn/ Ní bhíonn</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="biAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Beidh mé</li>
+      <li>Beidh tú</li>
+      <li>Beidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Beimid</li>
+      <li>Beidh sibh</li>
+      <li>Beidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Beifear</li>
+      <li></br>
+      </li>
+      <li>An mbeidh?</li>
+      <li>Nach mbeidh?</li>
+      <li>Beidh/ Ní bheidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="biMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bheinn</li>
+      <li>Bheifeá</li>
+      <li>Bheadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bheimis</li>
+      <li>Bheadh sibh</li>
+      <li>Bheidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bheifí</li>
+      <li></br>
+      </li>
+      <li>An mbeadh?</li>
+      <li>Nach mbeadh?</li>
+      <li>Bheadh/ Ní bheadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="biAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bhínn</li>
+      <li>Bhíteá</li>
+      <li>Bhíodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bhímis</li>
+      <li>Bhíodh sibh</li>
+      <li>Bhídís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bhítí</li>
+      <li></br>
+      </li>
+      <li>An mbíodh?</li>
+      <li>Nach mbíodh?</li>
+      <li>Bhíodh/ Ní bhíodh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+<div data-role="page" id="biMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Bím</li>
+      <li>Bí</li>
+      <li>Bíodh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Bímis</li>
+      <li>Bígí</li>
+      <li>Bídís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Bítear</li>
+      <li></br>
+      </li>
+      <li>Ná bí...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bí</h4>
+  </div>
+</div>
+
+<div data-role="page" id="cloisAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chuala mé</li>
+      <li>Chuala tú</li>
+      <li>Chuala sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chualamar</li>
+      <li>Chuala sibh</li>
+      <li>Chuala siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chualathas</li>
+      <li></br>
+      </li>
+      <li>Ar chuala?</li>
+      <li>Nár chuala?</li>
+      <li>Chuala/ Níor chuala</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Cloisteáil</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Cloiste</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+<div data-role="page" id="cloisAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cloisim</li>
+      <li>Cloiseann tú</li>
+      <li>Cloiseann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cloisimid</li>
+      <li>Cloiseann sibh</li>
+      <li>Cloiseann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cloistear</li>
+      <li></br>
+      </li>
+      <li>An gcloiseann?</li>
+      <li>Nach gcloiseann?</li>
+      <li>Cloiseann/ Ní chloiseann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+<div data-role="page" id="cloisAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cloisfidh mé</li>
+      <li>Cloisfidh tú</li>
+      <li>Cloisfidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cloisfimid</li>
+      <li>Cloisfidh sibh</li>
+      <li>Cloisfidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cloisfear</li>
+      <li></br>
+      </li>
+      <li>An gcloisfidh?</li>
+      <li>Nach gcloisfidh?</li>
+      <li>Cloisfidh/ Ní chloisfidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+<div data-role="page" id="cloisMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chloisfinn</li>
+      <li>Chloisfeá</li>
+      <li>Chloisfeadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chloisfimis</li>
+      <li>Chloisfeadh sibh</li>
+      <li>Chloisfidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chloisfí</li>
+      <li></br>
+      </li>
+      <li>An gcloisfeadh?</li>
+      <li>Nach gcloisfeadh?</li>
+      <li>Chloisfeadh/ Ní chloisfeadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+<div data-role="page" id="cloisAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chloisinn</li>
+      <li>Chloisteá</li>
+      <li>Chloiseadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chloisimis</li>
+      <li>Chloiseadh sibh</li>
+      <li>Chloisidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chloistí</li>
+      <li></br>
+      </li>
+      <li>An gcloiseadh?</li>
+      <li>Nach gcloiseadh?</li>
+      <li>Chloiseadh/ Ní chloiseadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+<div data-role="page" id="cloisMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Cloisim</li>
+      <li>Clois</li>
+      <li>Cloiseadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Cloisimis</li>
+      <li>Cloisigí</li>
+      <li>Cloisidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Cloistear</li>
+      <li></br>
+      </li>
+      <li>Ná cl...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Clois</h4>
+  </div>
+</div>
+
+<div data-role="page" id="deanAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Rinne mé</li>
+      <li>Rinne tú</li>
+      <li>Rinne sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Rinneamar</li>
+      <li>Rinne sibh</li>
+      <li>Rinne siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Rinneadh/ Ní dhearnadh</li>
+      <li></br>
+      </li>
+      <li>An ndearna?</li>
+      <li>Nach ndearna?</li>
+      <li>Rinne/ Ní dhearna</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Déanamh</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Déanta</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+<div data-role="page" id="deanAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Déanaim</li>
+      <li>Déanann tú</li>
+      <li>Déanann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Déanaimid</li>
+      <li>Déanann sibh</li>
+      <li>Déanann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Déantar</li>
+      <li></br>
+      </li>
+      <li>An ndéanann?</li>
+      <li>Nach ndéanann?</li>
+      <li>Déanann/ Ní dhéanann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+<div data-role="page" id="deanAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Déanfaidh mé</li>
+      <li>Déanfaidh tú</li>
+      <li>Déanfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Déanfaimid</li>
+      <li>Déanfaidh sibh</li>
+      <li>Déanfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Déanfar</li>
+      <li></br>
+      </li>
+      <li>An ndéanfaidh?</li>
+      <li>Nach ndéanfaidh?</li>
+      <li>Déanfaidh/ Ní dhéanfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+<div data-role="page" id="deanMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Dhéanfainn</li>
+      <li>Dhéanfá</li>
+      <li>Dhéanfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Dhéanfaimis</li>
+      <li>Dhéanfadh sibh</li>
+      <li>Dhéanfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Dhéanfaí</li>
+      <li></br>
+      </li>
+      <li>An ndéanfadh?</li>
+      <li>Nach ndéanfadh?</li>
+      <li>Dhéanfadh/ Ní dhéanfadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+<div data-role="page" id="deanAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Dhéanainn</li>
+      <li>Dhéantá</li>
+      <li>Dhéanadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Dhéanaimis</li>
+      <li>Dhéanadh sibh</li>
+      <li>Dhéanaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Dhéantaí</li>
+      <li></br>
+      </li>
+      <li>An ndéanadh?</li>
+      <li>Nach ndéanadh?</li>
+      <li>Dhéanadh/ Ní dhéanadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+<div data-role="page" id="deanMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Déanaim</li>
+      <li>Déan</li>
+      <li>Déanadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Déanaimis</li>
+      <li>Déanaigí</li>
+      <li>Déanaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Déantar</li>
+      <li></br>
+      </li>
+      <li>Ná dé...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Déan</h4>
+  </div>
+</div>
+
+<div data-role="page" id="faighAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Fuair mé</li>
+      <li>Fuair tú</li>
+      <li>Fuair sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Fuaireamar</li>
+      <li>Fuair sibh</li>
+      <li>Fuair siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Fuarthas/ Ní bhfuarthas</li>
+      <li></br>
+      </li>
+      <li>An bhfuair?</li>
+      <li>Nach bhfuair?</li>
+      <li>Fuair/ Ní bhfuair</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Fáil</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Faighte</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+<div data-role="page" id="faighAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Faighim</li>
+      <li>Faigheann tú</li>
+      <li>Faigheann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Faighimid</li>
+      <li>Faigheann sibh</li>
+      <li>Faigheann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Faightear</li>
+      <li></br>
+      </li>
+      <li>An bhfaigheann?</li>
+      <li>Nach bhfaigheann?</li>
+      <li>Faigheann/ Ní fhaigheann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+<div data-role="page" id="faighAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Gheobhaidh mé</li>
+      <li>Gheobhaidh tú</li>
+      <li>Gheobhaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Gheobhaimid</li>
+      <li>Gheobhaidh sibh</li>
+      <li>Gheobhaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Geofar/ Ní bhfaighfear</li>
+      <li></br>
+      </li>
+      <li>An bhfaighidh?</li>
+      <li>Nach bhfaighidh?</li>
+      <li>Gheobhaidh/ Ní bhfaighidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+<div data-role="page" id="faighMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Gheobhainn</li>
+      <li>Gheofá</li>
+      <li>Gheobhadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Gheobhaimis</li>
+      <li>Gheobhadh sibh</li>
+      <li>Gheobhaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Gheofaí/ Ní bhfaighfí</li>
+      <li></br>
+      </li>
+      <li>An bhfaigheadh?</li>
+      <li>Nach bhfaigheadh?</li>
+      <li>Gheobhaidh/ Ní bhfaigheadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+<div data-role="page" id="faighAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'fhaighinn</li>
+      <li>D'fhaighteá</li>
+      <li>D'fhaigheadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'fhaighimis</li>
+      <li>D'fhaigheadh sibh</li>
+      <li>D'fhaighidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'fhaightí</li>
+      <li></br>
+      </li>
+      <li>An bhfaigheadh?</li>
+      <li>Nach bhfaigheadh?</li>
+      <li>D'fhaigheadh/ Ní fhaigheadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+<div data-role="page" id="faighMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Faighim</li>
+      <li>Faigh</li>
+      <li>Faigheadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Faighimis</li>
+      <li>Faighigí</li>
+      <li>Faighidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Faightear</li>
+      <li></br>
+      </li>
+      <li>Ná fa...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Faigh</h4>
+  </div>
+</div>
+
+<div data-role="page" id="feicAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chonaic mé</li>
+      <li>Chonaic tú</li>
+      <li>Chonaic sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chonaiceamar</li>
+      <li>Chonaic sibh</li>
+      <li>Chonaic siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chonacthas/ Ní fhacthas</li>
+      <li></br>
+      </li>
+      <li>An bhfaca?</li>
+      <li>Nach bhfaca?</li>
+      <li>Chonaic/ Ní fhaca</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Feiceáil</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Feicthe</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+<div data-role="page" id="feicAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Feicim</li>
+      <li>Feiceann tú</li>
+      <li>Feiceann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Feicimid</li>
+      <li>Feiceann sibh</li>
+      <li>Feiceann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Feictear</li>
+      <li></br>
+      </li>
+      <li>An bhfeiceann?</li>
+      <li>Nach bhfeiceann?</li>
+      <li>Feiceann/ Ní fheiceann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+<div data-role="page" id="feicAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Feicfidh mé</li>
+      <li>Feicfidh tú</li>
+      <li>Feicfidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Feicfimid</li>
+      <li>Feicfidh sibh</li>
+      <li>Feicfidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Feicfear</li>
+      <li></br>
+      </li>
+      <li>An bhfeicfidh?</li>
+      <li>Nach bhfeicfidh?</li>
+      <li>Feicfidh/ Ní fheicfidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+<div data-role="page" id="feicMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'fheicfinn</li>
+      <li>D'fheicfeá</li>
+      <li>D'fheicfeadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'fheicfimis</li>
+      <li>D'fheicfeadh sibh</li>
+      <li>D'fheicfidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'fheicfí</li>
+      <li></br>
+      </li>
+      <li>An bhfeicfeadh?</li>
+      <li>Nach bhfeicfeadh?</li>
+      <li>D'fheicfeadh/ Ní fheicfeadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+<div data-role="page" id="feicAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'fheicinn</li>
+      <li>D'fheicteá</li>
+      <li>D'fheiceadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'fheicimis</li>
+      <li>D'fheiceadh sibh</li>
+      <li>D'fheicidís siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'fheictí</li>
+      <li></br>
+      </li>
+      <li>An bhfeiceadh?</li>
+      <li>Nach bhfeiceadh?</li>
+      <li>D'fheiceadh/ Ní fheiceadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+<div data-role="page" id="feicMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Feicim</li>
+      <li>Feic</li>
+      <li>Feiceadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Feicimis</li>
+      <li>Feicigí</li>
+      <li>Feicidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Feictear</li>
+      <li></br>
+      </li>
+      <li>Ná fe...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Feic</h4>
+  </div>
+</div>
+
+<div data-role="page" id="ithAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'ith mé</li>
+      <li>D'ith tú</li>
+      <li>D'ith sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'itheamar</li>
+      <li>D'ith sibh</li>
+      <li>D'ith siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Itheadh</li>
+      <li></br>
+      </li>
+      <li>Ar ith?</li>
+      <li>Nár ith?</li>
+      <li>D'ith/ Níor ith</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Ithe</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Ite</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+<div data-role="page" id="ithAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ithim</li>
+      <li>Itheann tú</li>
+      <li>Itheann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ithimid</li>
+      <li>Itheann sibh</li>
+      <li>Itheann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Itear</li>
+      <li></br>
+      </li>
+      <li>An itheann?</li>
+      <li>Nach n-itheann?</li>
+      <li>Itheann/ Ní itheann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+<div data-role="page" id="ithAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Íosfaidh mé</li>
+      <li>Íosfaidh tú</li>
+      <li>Íosfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Íosfaimid</li>
+      <li>Íosfaidh sibh</li>
+      <li>Íosfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Íosfar</li>
+      <li></br>
+      </li>
+      <li>An íosfaidh?</li>
+      <li>Nach n-íosfaidh?</li>
+      <li>Íosfaidh/ Ní íosfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+<div data-role="page" id="ithMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'íosfainn</li>
+      <li>D'íosfá</li>
+      <li>D'íosfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'íosfaimis</li>
+      <li>D'íosfadh sibh</li>
+      <li>D'íosfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'íosfaí</li>
+      <li></br>
+      </li>
+      <li>An íosfadh?</li>
+      <li>Nach n-íosfadh?</li>
+      <li>D'íosfadh/ Ní íosfadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+<div data-role="page" id="ithAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>D'ithinn</li>
+      <li>D'iteá</li>
+      <li>D'itheadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>D'ithimis</li>
+      <li>D'itheadh sibh</li>
+      <li>D'ithidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>D'ití</li>
+      <li></br>
+      </li>
+      <li>An itheadh?</li>
+      <li>Nach n-itheadh?</li>
+      <li>D'itheadh/ Ní itheadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+<div data-role="page" id="ithMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Ithim</li>
+      <li>Ith</li>
+      <li>Itheadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Ithimis</li>
+      <li>Ithigí</li>
+      <li>Ithidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Itear</li>
+      <li></br>
+      </li>
+      <li>Ná hi...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Ith</h4>
+  </div>
+</div>
+
+<div data-role="page" id="tabhairAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Thug mé</li>
+      <li>Thug tú</li>
+      <li>Thug sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Thugamar</li>
+      <li>Thug sibh</li>
+      <li>Thug siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tugadh</li>
+      <li></br>
+      </li>
+      <li>Ar thug?</li>
+      <li>Nár thug?</li>
+      <li>Thug/ Níor thug</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Tabhairt</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Tugtha</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+<div data-role="page" id="tabhairAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tugaim</li>
+      <li>Tugann tú</li>
+      <li>Tugann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Tugaimid</li>
+      <li>Tugann sibh</li>
+      <li>Tugann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tugtar</li>
+      <li></br>
+      </li>
+      <li>An dtugann?</li>
+      <li>Nach dtugann?</li>
+      <li>Tugann/ Ní thugann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+<div data-role="page" id="tabhairAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tabharfaidh mé</li>
+      <li>Tabharfaidh tú</li>
+      <li>Tabharfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Tabharfaimid</li>
+      <li>Tabharfaidh sibh</li>
+      <li>Tabharfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tabharfar</li>
+      <li></br>
+      </li>
+      <li>An dtabharfaidh?</li>
+      <li>Nach dtabharfaidh?</li>
+      <li>Tabharfaidh/ Ní thabharfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+<div data-role="page" id="tabhairMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Thabharfainn</li>
+      <li>Thabharfá</li>
+      <li>Thabharfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Thabharfaimis</li>
+      <li>Thabharfadh sibh</li>
+      <li>Thabharfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Thabharfaí</li>
+      <li></br>
+      </li>
+      <li>An dtabharfadh?</li>
+      <li>Nach dtabharfadh?</li>
+      <li>Thabharfadh/ Ní thabharfadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+<div data-role="page" id="tabhairAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Thugainn</li>
+      <li>Thugtá</li>
+      <li>Thugadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Thugaimis</li>
+      <li>Thugadh sibh</li>
+      <li>Thugaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Thugtaí</li>
+      <li></br>
+      </li>
+      <li>An dtugadh?</li>
+      <li>Nach dtugadh?</li>
+      <li>Thugadh/ Ní thugadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+<div data-role="page" id="tabhairMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tugaim</li>
+      <li>Tabhair</li>
+      <li>Tugadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Tugaimis</li>
+      <li>Tugaigí</li>
+      <li>Tugaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tugtar</li>
+      <li></br>
+      </li>
+      <li>Ná t...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tabhair</h4>
+  </div>
+</div>
+
+<div data-role="page" id="tarAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tháinig mé</li>
+      <li>Tháinig tú</li>
+      <li>Tháinig sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Thángamar</li>
+      <li>Tháinig sibh</li>
+      <li>Tháinig siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Thángthas</li>
+      <li></br>
+      </li>
+      <li>Ar tháinig?</li>
+      <li>Nár tháinig?</li>
+      <li>Tháinig/ Níor tháinig</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Teacht</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Tagtha</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+<div data-role="page" id="tarAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tagaim</li>
+      <li>Tagann tú</li>
+      <li>Tagann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Tagaimid</li>
+      <li>Tagann sibh</li>
+      <li>Tagann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tagtar</li>
+      <li></br>
+      </li>
+      <li>An dtagann?</li>
+      <li>Nach dtagann?</li>
+      <li>Tagann/ Ní thagann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+<div data-role="page" id="tarAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tiocfaidh mé</li>
+      <li>Tiocfaidh tú</li>
+      <li>Tiocfaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Tiocfaimid</li>
+      <li>Tiocfaidh sibh</li>
+      <li>Tiocfaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tiocfar</li>
+      <li></br>
+      </li>
+      <li>An dtiocfaidh?</li>
+      <li>Nach dtiocfaidh?</li>
+      <li>Tiocfaidh/ Ní thiocfaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+<div data-role="page" id="tarMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Thiocfainn</li>
+      <li>Thiocfá</li>
+      <li>Thiocfadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Thiocfaimis</li>
+      <li>Thiocfadh sibh</li>
+      <li>Thiocfaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Thiocfaí</li>
+      <li></br>
+      </li>
+      <li>An dtiocfadh?</li>
+      <li>Nach dtiocfadh?</li>
+      <li>Thiocfadh/ Ní thiocfadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+<div data-role="page" id="tarAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Thagainn</li>
+      <li>Thagtá</li>
+      <li>Thagadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Thagaimis</li>
+      <li>Thagadh sibh</li>
+      <li>Thagaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Thagtaí</li>
+      <li></br>
+      </li>
+      <li>An dtagadh?</li>
+      <li>Nach dtagadh?</li>
+      <li>Thagadh/ Ní thagadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+<div data-role="page" id="tarMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Tagaim</li>
+      <li>Tar</li>
+      <li>Tagadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Tagaimis</li>
+      <li>Tagaigí</li>
+      <li>Tagaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Tagtar</li>
+      <li></br>
+      </li>
+      <li>Ná ta...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Tar</h4>
+  </div>
+</div>
+
+<div data-role="page" id="teighAC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Chaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Chuaigh mé</li>
+      <li>Chuaigh tú</li>
+      <li>Chuaigh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Chuamar</li>
+      <li>Chuaigh sibh</li>
+      <li>Chuaigh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Chuathas/ Ní dheachthas</li>
+      <li></br>
+      </li>
+      <li>An ndeachaigh?</li>
+      <li>Nach ndeachaigh?</li>
+      <li>Chuaigh/ Ní dheachaigh</li>
+      <li></br>
+      </li>
+      <li data-role="list-divider" data-theme="b">Ainm Briathartha</li>
+      <li>Dul</li>
+      <li data-role="list-divider" data-theme="b">Aidiacht Bhriathartha</li>
+      <li>Dulta</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<div data-role="page" id="teighAL" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Láithreach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Téim</li>
+      <li>Téann tú</li>
+      <li>Téann sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Téimid</li>
+      <li>Téann sibh</li>
+      <li>Téann siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Téitear</li>
+      <li></br>
+      </li>
+      <li>An dtéann?</li>
+      <li>Nach dtéann?</li>
+      <li>Téann/ Ní théann</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<div data-role="page" id="teighAF" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Fháistineach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Rachaidh mé</li>
+      <li>Rachaidh tú</li>
+      <li>Rachaidh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Rachaimid</li>
+      <li>Rachaidh sibh</li>
+      <li>Rachaidh siad</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Rachfar</li>
+      <li></br>
+      </li>
+      <li>An rachaidh?</li>
+      <li>Nach rachaidh?</li>
+      <li>Rachaidh/ Ní rachaidh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<div data-role="page" id="teighMC" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Coinníollach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Rachainn</li>
+      <li>Rachfá</li>
+      <li>Rachadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Rachaimis</li>
+      <li>Rachadh sibh</li>
+      <li>Rachaidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Rachfaí</li>
+      <li></br>
+      </li>
+      <li>An rachadh?</li>
+      <li>Nach rachadh?</li>
+      <li>Rachadh/ Ní rachadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<div data-role="page" id="teighAG" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Aimsir Ghnáthchaite</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Théinn</li>
+      <li>Théiteá</li>
+      <li>Théadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Théimis</li>
+      <li>Théadh sibh</li>
+      <li>Théidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Théití</li>
+      <li></br>
+      </li>
+      <li>An dtéadh?</li>
+      <li>Nach dtéadh?</li>
+      <li>Théadh/ Ní théadh</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<div data-role="page" id="teighMO" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Modh Ordaitheach</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Uatha</li>
+      <li>Téim</li>
+      <li>Téigh</li>
+      <li>Téadh sé/sí</li>
+      <li data-role="list-divider" data-theme="b">Iolra</li>
+      <li>Téimis</li>
+      <li>Téigí</li>
+      <li>Téidís</li>
+      <li data-role="list-divider" data-theme="b">Briathar Saor</li>
+      <li>Téitear</li>
+      <li></br>
+      </li>
+      <li>Ná té...</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Téigh</h4>
+  </div>
+</div>
+<!--Nouns done-->
+<div class="nounspage" data-role="page" id="Nouns" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Ainmfhocail</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Na hAthruithe Tosaigh</li>
+      <li><a href="#noun1" data-transition="slide">Ainmneach Uatha</a></li>
+      <li><a href="#noun2" data-transition="slide">Ainmneach Iolra</a></li>
+      <li><a href="#noun3" data-transition="slide">Ginideach Uatha</a></li>
+      <li><a href="#noun4" data-transition="slide">Ginideach Iolra</a></li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Ainmfhocail Fhirinscneacha</li>
+      <li><a href="#noun5" data-transition="slide">An chéad díochlaonadh</a></li>
+      <li><a href="#noun6" data-transition="slide">An tríú díochlaonadh</a></li>
+      <li><a href="#noun7" data-transition="slide">An ceathrú díochlaonadh</a></li>
+      <li><a href="#noun8" data-transition="slide">An cúigiú díochlaonadh</a></li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Ainmfhocail Bhaininscneacha</li>
+      <li><a href="#noun9" data-transition="slide">An dara díochlaonadh</a></li>
+      <li><a href="#noun10" data-transition="slide">An tríú díochlaonadh</a></li>
+      <li><a href="#noun11" data-transition="slide">An ceathrú díochlaonadh</a></li>
+      <li><a href="#noun12" data-transition="slide">An cúigiú díochlaonadh</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<!--Nouns pages done-->
+<div class="nounspage" data-role="page" id="noun1" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Ainmneach Uatha</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Achoimre ar na hathruithe tosaigh san ainmneach uatha i ndiaidh an ailt:</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Firinscneach (consan) =</br>
+        gan athrú (an fear)</li>
+      <li style="font-size:15px">Firinscneach (guta) =</br>
+        't-' (an t-amhrán)</li>
+      <li style="font-size:15px">Firinscneach (s{guta}, sl, sn, sr) =</br>
+        gan athrú (an siopa)</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Baininscneach (consan) =</br>
+        + séimhiú (an bhean)</li>
+      <li style="font-size:15px">Baininscneach (guta) =</br>
+        gan athrú (an aiste)</li>
+      <li style="font-size:15px">Baininscneach (s{guta}, sl, sn, sr) =</br>
+        't' (an tsrón)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun2" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Ainmneach Iolra</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Achoimre ar na hathruithe tosaigh san ainmneach iolra i ndiaidh an ailt:</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Roimh chonsan = </br>
+        gan athrú (na fir)</li>
+      <li style="font-size:15px">Roimh ghuta =</br>
+        'h' (na hoícheanta)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun3" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Ginideach Uatha</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Achoimre ar na hathruithe tosaigh sa ghinideach uatha i ndiaidh an ailt:</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Firinscneach (consan) =</br>
+        + séimhiú (an fhir)</li>
+      <li style="font-size:15px">Firinscneach (guta) =</br>
+        't-' le baint (an amhráin)</li>
+      <li style="font-size:15px">Firinscneach (s{guta}, sl, sn, sr) =</br>
+        't' (an tsiopa)</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Baininscneach (consan) =</br>
+        séimhiú le baint (na mná)</li>
+      <li style="font-size:15px">Baininscneach (guta) =</br>
+        'h' (na haiste)</li>
+      <li style="font-size:15px">Baininscneach (s{guta}, sl, sn, sr) =</br>
+        't' le baint (na sróine)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun4" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Ginideach Iolra</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">Achoimre ar na hathruithe tosaigh sa ghinideach iolra i ndiaidh an ailt:</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Roimh chonsan =</br>
+        urú (na bhfear)</li>
+      <li style="font-size:15px">Roimh ghuta =</br>
+        urú (n-) (na n-oícheanta)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+
+<div class="nounspage" data-role="page" id="noun5" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An chéad díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">ábhar</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an <strong>t</strong>-ábhar</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an ábhair</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na hábhair (lagiolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na n-ábhar</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">sagart</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an sagart</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an tsagairt</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na sagairt (lagiolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na sagart</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun6" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An tríú díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">feirmeoir</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an feirmeoir</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an f<strong>h</strong>eirmeora</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na feirmeoirí (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>bh</strong>feirmeoirí</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">polaiteoir</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an polaiteoir</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an p<strong>h</strong>olaiteora</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na polaiteoirí (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>b</strong>polaiteoirí</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun7" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An ceathrú díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">cailín</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an cailín</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an c<strong>h</strong>ailín</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na cailíní (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>g</strong>cailíní</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">oráiste</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an t-oráiste</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an oráiste</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na <strong>h</strong>oráistí (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>n</strong>-oráistí</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun8" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An cúigiú díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">athair</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an t-athair</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an athar</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na <strong>h</strong>aithreacha (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>n</strong>-aithreacha</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">deartháir</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an deartháir</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: an dearthár</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na deartháireacha (tréaniolra) </li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na ndeartháireacha</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun9" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An dara díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">fuinneog</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an f<strong>h</strong>uinneog</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> fuinneoige</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na fuinneoga (lagiolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>bh</strong>fuinneog</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">sráid</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an <strong>t</strong>sráid</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> sráide</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na sráideanna (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na sráideanna</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun10" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An tríú díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">iománaíocht</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an iománaíocht</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> <strong>h</strong>iománaíochta</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: ---</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: ---</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">ríomhaireacht</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an ríomhaireacht</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> ríomhaireachta</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: ---</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: ---</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun11" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An ceathrú díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">tine</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an tine </br>(ní chuirtear séimhiú ar ainmfhocal baininscneach a thosaíonn ar 'd' nó ar 't' i ndiaidh an ailt san ainmneach uatha)</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> tine</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na tinte (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na <strong>d</strong>tinte</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">líne</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an líne</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> líne</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na línte (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na línte</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="noun12" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>An cúigiú díochlaonadh</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">cathair</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an c<strong>h</strong>athair</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> cathrach</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na cathracha (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na gcathracha</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b">máthair</li>
+      <li style="font-size:15px">Tuiseal Ainmneach uatha: an m<strong>h</strong>áthair</li>
+      <li style="font-size:15px">Tuiseal Ginideach uatha: <strong>na</strong> máthar</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">Tuiseal Ainmneach iolra: na máithreacha (tréaniolra)</li>
+      <li style="font-size:15px">Tuiseal Ginideach iolra: na máithreacha</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Nouns</h4>
+  </div>
+</div>
+<!--Adjectives done-->
+<div class="adjectivespage" data-role="page" id="Adjectives" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Aidiachtaí</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c" data-icon="arrow-r">
+      <li data-role="list-divider" data-theme="b">An chéad díochlaonadh (aidiachtaí nach gcríochaíonn ar '-úil', '-ir' ná ar ghuta)</li>
+      <li><a href="#mor" data-transition="slide">mór</a></li>
+      <li><a href="#beag" data-transition="slide">beag</a></li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c" data-icon="arrow-r">
+      <li data-role="list-divider" data-theme="b">An dara díochlaonadh (aidiachtaí a chríochnaíonn ar '-úil' agus ar '-ir')</li>
+      <li><a href="#suimiuil" data-transition="slide">suimiúil</a></li>
+      <li><a href="#socair" data-transition="slide">socair</a></li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c" data-icon="arrow-r">
+      <li data-role="list-divider" data-theme="b">An tríú díochlaonadh (aidiachtaí a chríochnaíonn ar ghuta)</li>
+      <li><a href="#fada" data-transition="slide">fada</a></li>
+      <li><a href="#bui" data-transition="slide">buí</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Roinnt Samplaí</h4>
+  </div>
+</div>
+<!--Adjectives pages done-->
+<div class="nounspage" data-role="page" id="mor" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>mór</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ainmneach</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha firinscneach:</br>
+        mór (an fear mór)</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha baininscneach:</br>
+        mhór (an bhean mhór)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (consan caol):</br>
+        mhóra (na pictiúir mhóra)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (gan consan caol):</br>
+        móra (na gairdíní móra)</li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ginideach</li>
+      <li style="font-size:15px">tuiseal ginideach uatha firinscneach:</br>
+        mhóir (an fhir mhóir)</li>
+      <li style="font-size:15px">tuiseal ginideach uatha baininscneach:</br>
+        móire (na mná móire)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (lagiolra):</br>
+        mór (na bpictiúr mór)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (tréaniolra):</br>
+        móra (na ngairdíní móra)</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">breischéim: níos mó</li>
+      <li style="font-size:15px">sárchéim: is mó</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>mór</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="beag" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>beag</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ainmneach</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha firinscneach:</br>
+       beag (an fear beag)</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha baininscneach:</br>
+       bheag (an bhean bheag)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (consan caol):</br>
+       bheaga (na pictiúir bheaga)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (gan consan caol):</br>
+        beaga (na gairdíní beaga)</li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ginideach</li>
+      <li style="font-size:15px">tuiseal ginideach uatha firinscneach:</br>
+       bhig (an fhir bhig)</li>
+      <li style="font-size:15px">tuiseal ginideach uatha baininscneach:</br>
+        bige (na mná bige)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (lagiolra):</br>
+        beag (na bpictiúr beag)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (tréaniolra):</br>
+        beaga (na ngairdíní beaga)</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">breischéim: níos lú</li>
+      <li style="font-size:15px">sárchéim: is lú</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>beag</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="suimiuil" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>suimiúil</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ainmneach</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha firinscneach:</br>
+       suimiúil (an fear suimiúil)</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha baininscneach:</br>
+       shuimiúil (an bhean shuimiúil)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (consan caol):</br>
+       shuimiúla (na pictiúir shuimiúla)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (gan consan caol):</br>
+        suimiúla (na gairdíní suimiúla)</li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ginideach</li>
+      <li style="font-size:15px">tuiseal ginideach uatha firinscneach:</br>
+       shuimiúil (an fhir shuimiúil)</li>
+      <li style="font-size:15px">tuiseal ginideach uatha baininscneach:</br>
+        suimiúla (na mná suimiúla)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (lagiolra):</br>
+        suimiúil (na bpictiúr suimiúil)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (tréaniolra):</br>
+        suimiúla (na ngairdíní suimiúla)</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">breischéim: níos suimiúla</li>
+      <li style="font-size:15px">sárchéim: is suimiúla</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>suimiúil</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="socair" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>socair</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ainmneach</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha firinscneach:</br>
+       socair (an fear socair)</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha baininscneach:</br>
+       shocair (an bhean shocair)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (consan caol):</br>
+       shocra (na foirgnimh shocra)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (gan consan caol):</br>
+       socra (na farraigí socra)</li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ginideach</li>
+      <li style="font-size:15px">tuiseal ginideach uatha firinscneach:</br>
+       	shocair (an fhir shocair)</li>
+      <li style="font-size:15px">tuiseal ginideach uatha baininscneach:</br>
+        socra (na mná socra)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (lagiolra):</br>
+        socair (na bhfoirgneamh socair)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (tréaniolra):</br>
+       	socra (na bhfarraigí socra)</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">breischéim: níos socra</li>
+      <li style="font-size:15px">sárchéim: is socra</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>socair</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="fada" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>fada</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ainmneach</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha firinscneach:</br>
+       fada (an scéal fada)</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha baininscneach:</br>
+       fhada (an mhí fhada)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (consan caol):</br>
+       fhada (na leabhair fhada)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (gan consan caol):</br>
+       fada (na hoícheanta fada)</li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ginideach</li>
+      <li style="font-size:15px">tuiseal ginideach uatha firinscneach:</br>
+       	fhada (an scéil fhada)</li>
+      <li style="font-size:15px">tuiseal ginideach uatha baininscneach:</br>
+        fada (na míosa fada)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (lagiolra):</br>
+        fada (na leabhar fada)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (tréaniolra):</br>
+       	fada (na n-oícheanta fada)</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">breischéim: níos faide</li>
+      <li style="font-size:15px">sárchéim: is faide</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>fada</h4>
+  </div>
+</div>
+<div class="nounspage" data-role="page" id="bui" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>buí</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content" style="font-size:9px">
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ainmneach</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha firinscneach:</br>
+       buí (an leabhar buí)</li>
+      <li style="font-size:15px">tuiseal ainmneach uatha baininscneach:</br>
+       bhuí (an léine bhuí)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (consan caol):</br>
+       bhuí (na pictiúir bhuí)</li>
+      <li style="font-size:15px">tuiseal ainmneach iolra (gan consan caol):</br>
+       buí (na seomraí buí)</li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Tuiseal Ginideach</li>
+      <li style="font-size:15px">tuiseal ginideach uatha firinscneach:</br>
+       	bhuí (an leabhair bhuí)</li>
+      <li style="font-size:15px">tuiseal ginideach uatha baininscneach:</br>
+        buí (na léine buí)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (lagiolra):</br>
+        buí (na bpictiúr buí)</li>
+      <li style="font-size:15px">tuiseal ginideach iolra (tréaniolra):</br>
+       	buí (na seomraí buí)</li>
+      <li style="font-size:15px"></br>
+      </li>
+      <li style="font-size:15px">breischéim: níos buí</li>
+      <li style="font-size:15px">sárchéim: is buí</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>buí</h4>
+  </div>
+</div>
+
+<!--Possessive Adjectives done-->
+<div class="possessivepage" data-role="page" id="PossessiveAdjectives" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Aidiachtaí Sealbhacha</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content"> 
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Roimh chonsan</li>
+      <li style="font-size:15px">Mo c<strong>h</strong>óta</li>
+      <li style="font-size:15px">Do c<strong>h</strong>óta</li>
+      <li style="font-size:15px">A c<strong>h</strong>óta (his)</li>
+      <li style="font-size:15px">A cóta (her)</li>
+      <li style="font-size:15px">Ár <strong>g</strong>cótaí</li>
+      <li style="font-size:15px">Bhur <strong>g</strong>cótaí</li>
+      <li style="font-size:15px">A <strong>g</strong>cótaí (their)</li>
+      <li style="font-size:15px"></br></li>
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">Roimh ghuta</li>
+      <li style="font-size:15px"><strong>M'</strong>athair</li>
+      <li style="font-size:15px"><strong>D'</strong>athair</li>
+      <li style="font-size:15px">A athair (his)</li>
+      <li style="font-size:15px">A <strong>h</strong>athair (her)</li>
+      <li style="font-size:15px">Ár <strong>n</strong>-athair</li>
+      <li style="font-size:15px">Bhur <strong>n</strong>-athair</li>
+      <li style="font-size:15px">A <strong>n</strong>-athair (their)</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Possessive Adjectives</h4>
+  </div>
+</div>
+<!--Simple Prepositions done-->
+<div class="prepositionspage" data-role="page" id="SimplePrepositions" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Réamhfhocail Shimplí</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+	<ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Bíonn tionchar ag réamhfhocail shimplí áirithe ar thúschonsan nó ar thúsghuta an ainmfhocail a thagann ina ndiaidh</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">+ séimhiú</li>
+      <li style="font-size:15px">ar*, de, do, faoi, gan*, idir*, mar, ó, roimh, thar*, trí, um</li>
+      <li style="font-size:15px">*ní i gcónaí go gcuirtear séimhiú ina ndiaidh</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">+ urú</li>
+      <li style="font-size:15px">i ('in' roimh ghuta)</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="c">
+      <li data-role="list-divider" data-theme="b" style="font-size:15px">+ an réamhlitir 'h' roimh ghuta</li>
+      <li style="font-size:15px">go, le</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Simple Prepositions</h4>
+  </div>
+</div>
+<!--Numbers done-->
+<div class="numberspage" data-role="page" id="Numbers" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse"></a>
+    <h1>Uimhreacha</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+	<ul data-role="listview" data-inset="true" data-theme="c">
+      <li><a href="#num1" data-transition="slide">Bunuimhreacha</a></li>
+      <li><a href="#num2" data-transition="slide">Orduimhreacha</a></li>
+      <li><a href="#num3" data-transition="slide">Uimhreacha Pearsanta</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Numbers</h4>
+  </div>
+</div>
+<!--Numbers pages-->
+<div data-role="page" id="num1" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Bunuimhreacha</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">Úsáidtear tuiseal ainmneach uatha an ainmfhocail i ndiaidh na mbunuimhreacha</li>
+      <li style="font-size:15px">1-6:</br></br>
+      &bull; séimhiú ar thúschonsan</br>
+      &bull; gan athrú ar thúsghuta</li>
+      <li style="font-size:15px">7-10:</br></br>
+      &bull; urú ar thúschonsan</br>
+      &bull; 'n-' roimh thúsghuta</li>
+      <li style="font-size:15px">Uimhreacha is iolrú ar a 10 (multiples): gan athrú</li>
+      <li style="font-size:15px">Déag: cuirtear séimhiú ar 'déag' má chríochnaíonn an t-ainmfhocal roimhe, san ainmneach uatha, ar ghuta</li>
+      <li style="font-size:15px">Leagan uimhriúil faoi leith ag:</br></br>
+      &bull; bliain &rightarrow; bliana</br>
+      &bull; ceann &rightarrow; cinn</br>
+      &bull; cloigeann &rightarrow; cloigne</br>
+      &bull; orlach &rightarrow; orlaí</br>
+      &bull; pingin &rightarrow; pingine</br>
+      &bull; seachtain &rightarrow; seachtaine</br>
+      &bull; troigh &rightarrow; troithe</br>
+      &bull; uair &rightarrow; uaire</li>
+      <li style="font-size:15px">Foirm an ailt:</br></br>
+      &bull; 'an' roimh aon, dhá (an dá) agus uimhreacha is iolrú ar 10</br></br>
+      &bull; ‘na’ roimh na huimhreacha eile</li>
+      <li style="font-size:15px">Bunuimhreacha + aidiachtaí:</br></br>
+      &bull; 2-19: aidiacht san iolra agus séimhiú uirthi</br></br>
+      &bull; 1, uimhreacha is iolrú ar 10: aidiacht san uatha; séimhiú ar aidiacht bhaininscneach, gan séimhiú ar aidiacht fhirinscneach</li>
+      <li style="font-size:15px">Bunuimhreacha + ginideach:</br></br>
+      &bull; cuirtear an t-ainmfhocal sa tuiseal ginideach i gcás 'aon' nuair nach mbíonn ‘déag’ ag gabháil leis</br>
+      &hybull; tagann athrú de réir inscne an ainmfhocail ar an alt</br>
+      &hybull; hata an aon fhir/ hata na haon mhná</br></br>
+      &bull; ní chuirtear an t-ainmfhocal sa tuiseal ginideach i gcás uimhreacha eile</br>
+      &hybull; ach, cuirtear séimhiú ar an uimhir i ndiaidh an ailt uathu (gan f, s, d, t a shéimhiú) agus urú ar an uimhir i ndiaidh an ailt iolra</br>
+      &hybull; luach an dá chapall/ luach na dtrí (gceithre/ gcúig/ sé) chapall</li>
+    </ul>  
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Bunuimhreacha</h4>
+  </div>
+</div>
+
+<div data-role="page" id="num2" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Orduimhreacha</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+    	<ul data-role="listview" data-inset="true" data-theme="c">
+        	<li data-role="list-divider" data-theme="b" style="font-size:15px">Athruithe tosaigh i ndiaidh orduimhreacha</li>
+			<li style="font-size:15px">chéad</br>
+            &bull; + séimhiú (ní chuirtear séimhiú ar d, s, t)</br>
+            &bull; fágtar túsghuta lom</br>
+            &bull; an chéad chapall/ an chéad oíche</li>
+        	<li style="font-size:15px">orduimhreacha eile</br>
+            &bull; gan athrú ar thúschonsan an ainmfhocail </br>
+            &bull; cuirtear an réamhlitir 'h' roimh thúsghuta </br>
+            &bull; an dara capall/ an dara hoíche</li>
+    	</ul>
+    	<ul data-role="listview" data-inset="true" data-theme="c">
+        	<li data-role="list-divider" data-theme="b" style="font-size:15px">orduimhreacha + ginideach</li>
+			<li style="font-size:15px">ní dhéantar athruithe sa ghinideach ar an ainmfhocal i ndiaidh orduimhreacha ach amháin i gcás <i>chéad</i></li>
+        	<li style="font-size:15px">tagann athrú de réir inscne an ainmfhocail ar an alt</li>
+            <li style="font-size:15px">bíonn séimhiú ar an bhfocal 'chéad' agus ar an ainmfhocal sa ghinideach uatha firinscneach agus baininscneach</li>
+            <li style="font-size:15px">hata an chéad fhir/ caint na chéad mhná</li>
+    	</ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Orduimhreacha</h4>
+  </div>
+</div>
+
+<div data-role="page" id="num3" data-theme="b">
+  <div data-role="header" data-theme="b"> <a href="#homepage" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-direction="reverse" data-rel="back"></a>
+    <h1>Uimhreacha Pearsanta</h1>
+    <a href="#homepage" data-role="button" data-icon="home" data-iconpos="notext" data-transition="pop">menu</a> </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-inset="true" data-theme="c">
+      <li style="font-size:15px">duine/ beirt/ triúr/ ceathrar/ cúigear/ seisear/ seachtar/ ochtar/ naonúr/ deichniúr/ dháréag</li>
+      <li style="font-size:15px">foirm an ghinidigh iolra den ainmfhocal a úsáidtear leis na huimhreacha pearsanta </li>
+      <li style="font-size:15px">Athruithe tosaigh i ndiaidh uimhreacha pearsanta:</br></br>
+      &bull; <u>beirt</u></br>
+      &hybull; + séimhiú ar thúschonsan an ainmfhocail</br>
+      &hybull; gan athrú ar thúsghuta</br>
+      &hybull; beirt fhear/ beirt bhan</br>
+      &hybull; beirt ógánach</br></br>
+      &bull; <u>uimhreacha pearsanta eile</u></br>
+      &hybull; gan athrú ar thúschonsan ná ar thúsghuta</br>
+      &hybull; triúr fear/ cúigear ban</br>
+      &hybull; seisear ógánach</li>
+      <li style="font-size:15px">i gcás uimhreacha lasmuigh de 'beirt' de 'deichniúr' agus 'dháréag' úsáidtear córas na mbunuimhreacha:</br></br>
+      trí dhuine dhéag/ naoi n-imreoir déag</li>
+      <li style="font-size:15px">Uimhreacha pearsanta + aidiachtaí:</br></br>
+      &bull; <u>beirt</u></br>
+      &hybull; an aidiacht ar a lorg san uimhir iolra</br>
+      &hybull; í séimhithe</br>
+      &hybull; beirt bhan bheaga</br></br>
+      &bull; <u>uimhreacha pearsanta eile</u></br>
+      &hybull; an aidiacht san uimhir uatha </br>
+      &hybull; gan séimhiú</br>
+      &hybull; triúr fear beag</li>
+      <li style="font-size:15px">Uimhreacha pearsanta + ginideach:</br></br>
+      &bull; <u>gan ainmfhocal i ndiaidh na huimhreach</u></br>
+      &hybull; beirt</br>
+      &nbsp;&nbsp;&bull; an &rightarrow; na</br>
+      &nbsp;&nbsp;&bull; beirt &rightarrow; beirte</br>
+      &nbsp;&nbsp;&bull; teach na beirte</br>
+      &hybull; uimhreacha pearsanta eile</br>
+      &nbsp;&nbsp;&bull; an</br>
+      &nbsp;&nbsp;&bull; caolú</br>
+      &nbsp;&nbsp;&bull; teach an triúir/ an cheathrair/ an ochtair</br></br>
+      &bull; <u>ainmfhocal i ndiaidh na huimhreach</u></br>
+      &hybull; athraíonn an uimhir i gcás ‘beirt’ </br>
+      &nbsp;&nbsp;&bull; teach na beirte ban</br>
+      &hybull; ní athraíonn an uimhir i gcás na n-uimhreacha eile ach déantar athruithe tosaigh de réir ainmfhocal firinscneach sa ghinideach</br>
+      &nbsp;&nbsp;&bull; teach an tseisear ban/ teach an cheathrar fear</li>
+     </ul>  
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h4>Uimhreacha Pearsanta</h4>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
